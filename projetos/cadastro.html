@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <style>
+        body {
+            margin: 1;
+            font-family: fantasy;
+            background-color: #030202;
+            font-size: 30px;
+        }
+        h1 {
+            color:rgb(16, 138, 168);
+            text-align: center;
+        }
+        .cad-box {
+            width: 700px;
+            height: 400px;
+            flex-shrink: 0;
+            padding: 30px;
+            text-align: center;
+            background-color: rgb(14, 93, 158);
+            border-radius: 10px;
+        }
+        .cad-title {
+            font-size: 40px;
+            font-weight: 50;
+            color:aliceblue
+        }
+        p {
+            font-size: 25px;
+            color:aliceblue;
+            line-height: 2.5;
+            font-family: Arial, Verdana;
+        }
+        .botao {
+            background-color: rgb(16, 138, 168);
+            color:aliceblue;
+            padding: 15px 30px;
+            font-size: 20px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .botao:hover{
+            background-color:rgb(14, 93, 158);
+        }
+        .inf-box {
+            width: 500px;
+            height: 220px;
+            flex-shrink: 0;
+            padding: 30px;
+            text-align: center;
+            background-color: rgb(14, 93, 158);
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+        .espac-box {
+            display: flex;
+           gap: 400px;
+            align-items: flex-start;
+            margin: 150px 80px 20px 80px;
+        }
+        .col-dir {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+        .bot {
+            background-color: rgb(16, 138, 168);
+            color:aliceblue;
+            padding: 15px 30px;
+            font-size: 20px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .bot:hover{
+            background-color:rgb(14, 93, 158);
+        }
+    </style>
+</head>
+<body>
+    <h1>TechNova Solutions</h1>
+    <div class="espac-box">
+    <section class="cad-box">
+        <h2 class="cad-title">Cadastro do Cliente</h2>
+        <p>Nome do Cliente: Derek Kaled Marinho<br>Tipo de Projeto: Organização de Planilhas<br>Orçamento Disponível: 250,00</p>
+        <a class="botao">Registrar projeto</a>
+        <a href="feedback.html" class="bot">Enviar Feedback</a>
+    </section>
+
+    <div class="col-dir">
+    <section class="inf-box">
+       <p>Status do Projeto:<br>Em desenvolvimento</p>
+    </section>
+    <section class="inf-box">
+        <p>Custo Aproximado:<br>300,00</p>
+    </section>
+    </div>
+    </div>
+</body>
+</html>
